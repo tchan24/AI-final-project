@@ -125,7 +125,7 @@ def breadthFirstSearch(problem: SearchProblem):
 def uniformCostSearch(problem: SearchProblem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
-    return genericSearch2(problem, None)
+    return genericSearch(problem, None)
 
 def nullHeuristic(state, problem=None):
     """
